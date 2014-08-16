@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: coffeetime_production
-  username: coffeetime
+  # username: coffeetime
   password: <%= ENV['COFFEETIME_DATABASE_PASSWORD'] %>
